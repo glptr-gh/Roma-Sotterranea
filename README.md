@@ -21,5 +21,5 @@ Contatti di tutte le persone coinvolte
 Etichetta e link alla licenza
 
 ## Changelog
-*Creazione repository
-*Compilazione parziale del ReadMe in markdown, riportando titolo, descrizione e fonti principali
+* Creazione repository
+* Compilazione parziale del ReadMe in markdown, riportando titolo, descrizione e fonti principali
