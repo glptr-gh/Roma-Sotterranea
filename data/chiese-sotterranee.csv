@@ -1,6 +1,10 @@
-Nome,Ubicazione,Costruzione,Prima attestazione,Stato attuale (chiesa),tipologia (sott.),Edificazione (sott.),Stato attuale (sott.),modalità d'accesso
+Nome,Ubicazione,Costruzione,Prima attestazione,Stato attuale (chiesa),contenuto dei sotterranei,Edificazione (sott.),Stato attuale (sott.),modalità d'accesso (sott.)
 S. Clemente,via S. Giovanni in Laterano,IV secolo,385,in funzione,basilica,NULL,aperto al pubblico,a pagamento
 SS. Luca e Martina,Foro Romano,VII secolo,NULL,in funzione,chiesa,NULL,NULL,NULL
 S. Pietro,Città del Vaticano,319,324,sede del Papato,complesso di grotte,IV secolo,aperto al pubblico, gratuito
-
-
+SS. Quattro Coronati,via dei SS. Quattro,V secolo, VI secolo,in funzione,cappella,NULL,NULL,NULL
+Santa Croce in Gerusalemme,piazza S. Croce in Gerusalemme,330,NULL,in funzione,complesso di cappelle,NULL,NULL,NULL
+S. Agnese,piazza Navona,XVII secolo,VII secolo,in funzione,cripta,VII secolo,aperto al pubblico,a pagamento
+SS. Giovanni e Paolo,rione Celio,398,IV secolo,in funzione, antiche abitazioni romane,II o III secolo,aperto al pubblico,a pagamento
+S. Lorenzo in fonte,via Urbana,NULL,1348,in funzione,specchio d'acqua sorgiva,NULL,aperto al pubblico,gratuito su richiesta
+S. Lorenzo fuori le mura,piazzale del Verano,IV secolo,NULL,in funzione,antiche chiese;cripte;mausoleo,NULL,aperto al pubblico,NULL
