@@ -9,9 +9,8 @@ ID_Chiesa,Nome,Wikidata,Ubicazione,Costruzione,Stato_attuale_chiesa,contenuto_so
 08,S. Lorenzo in fonte,Q727686,via Urbana,NULL,in funzione,specchio d'acqua sorgiva,NULL,aperto al pubblico,gratuito su richiesta
 09,S. Lorenzo fuori le mura,Q738214,piazzale del Verano,IV secolo,in funzione,antiche chiese,NULL,aperto al pubblico,NULL
 10,S. Maria della concezione,Q546141,piazza Barberini,1624,in funzione,antico cimitero,NULL,aperto al pubblico,a pagamento
-12,S. Maria in Via Lata,Q846559,via del Corso,VIII secolo,in funzione,antico pozzo,NULL,aperto al pubblico,a pagamento
-13,S. Martino ai Monti,Q1663278,viale monte Oppio,500,in funzione,strutture paleocristiane,IV secolo (la chiesa),aperto al pubblico,a pagamento
-14,S. Maria Scala Coeli,Q3673527,via di Acque Salvie,800,in funzione,cimitero,NULL,aperto al pubblico,gratuito
-15,S. Prisca,Q1750627,via di Santa Prisca,NULL,in funzione,chiesa paleocristiana,NULL,aperto al pubblico,a pagamento
-16,S. Sebastiano,Q658051,via Appia Antica,,in funzione,antico oratorio,NULL,aperto al pubblico,gratuito (oratorio) e a pagamento (catacombe)
-17,SS. Vincenzo e Anastasio,Q2313394,piazza di Trevi,NULL,in funzione,mausoleo,NULL,NULL,NULL
+11,S. Maria in Via Lata,Q846559,via del Corso,VIII secolo,in funzione,antico pozzo,NULL,aperto al pubblico,a pagamento
+12,S. Maria Scala Coeli,Q3673527,via di Acque Salvie,800,in funzione,cimitero,NULL,aperto al pubblico,gratuito
+13,S. Prisca,Q1750627,via di Santa Prisca,NULL,in funzione,chiesa paleocristiana,NULL,aperto al pubblico,a pagamento
+14,S. Sebastiano,Q658051,via Appia Antica,,in funzione,antico oratorio,NULL,aperto al pubblico,gratuito (oratorio) e a pagamento (catacombe)
+15,SS. Vincenzo e Anastasio,Q2313394,piazza di Trevi,NULL,in funzione,mausoleo,NULL,NULL,NULL
