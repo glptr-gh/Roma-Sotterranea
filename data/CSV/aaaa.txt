@@ -1,1 +1,1 @@
-aaaa
+ID_opera,titolo,tipo_di_opera,soggetto,QID_soggetto,autore_1,QID_autore_1,autore_2,QID_autore_2,autore_3,QID_autore_3,data,specifiche_data,proveniente_da,restaurato,data_restauro,autore_restauro
