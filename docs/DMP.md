@@ -92,51 +92,23 @@ Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scars
 - Data_Restauro
 - Autore_Restauro
 
-Questo lavoro ha prodotto risultati interessanti
+Questo lavoro ha prodotto risultati interessanti, aprendo la possibilità di ampliare la ricerca in molti modi, ma non si può sicuramente dichiarare un successo. Infatti, se l'obiettivo iniziale era quello di rendere operabile da un sistema il testo di Diego Angeli, questo è avvenuto soltanto in parte. Inserendo il file in Phthon o altro software adibito alla trasformazione di dati non strutturati in dati strutturati, si noterà molto facilmente la grande difficoltà con cui essi riescono a districarsi tra le maglie di un testo talmente complesso, restituendo datset confusi o del tutto erronei. Ciononostante, una raccolta di file come quelli prodotti in questa ricerca, come si è detto, possono comunque essere utili. Nello specifico, a partire da essi è possibile:
 
-1. basare la marcatura su un thesaurus consolidato e specifico come l'Art and Architecture Thesaurus curato da [Getty Research Institute](https://www.getty.edu/research/tools/vocabularies/aat/)
-2. procedere con l'estrazione e la strutturazione dei dati in ```.csv```
-3. completare il processo con la riconciliazione delle authority tramite Open Refine.
-
-Solo seguendo questo percorso sistematico si potrà ottenere un dataset affidabile, coerente e interoperabile, capace di valorizzare adeguatamente il patrimonio culturale analizzato e di supportare future ricerche digitali in ambito storico-artistico.
-
-- Quali dati (ad esempio il tipo, i formati e i volumi)  
-verranno raccolti o prodotti?
-- Come verranno raccolti o prodotti i nuovi dati e/o  
-come verranno riutilizzati i dati esistenti?
+1. Procedere alla creazione di Linked Open Data in cui tutte le opere d'arte siano collegate ad almeno un altro dato, come la la chiesa al di sotto della quale si trova, se non proprio a una quantità molto ampia di altri dati, dall'autore all'epoca in cui è stata prodotta, dal materiale che la costituisce e al tipo di forma d'arte a cui appartiene fino al soggetto che rappresenta o a cui è dedicata;
+2. Migliorare la marcatura adoperando architetture di Markup diverse e più flessibili di XML-TEI, in modo da rendere il dataset davvero interoperabile;
+3. Creare guide turistiche dei sotterranei di Roma più aggiornate;
+4. Geolocalizzare con una buona precisione le opere d'arte descritte da Diego Angeli, associandole alle mappe dei sotterranei delle Chiese di Roma, disponibili on line, così da dare vita a carte temeatiche specifiche;
+5. Completare i dataset in ```.csv``` grazie a un processo di riconciliazione delle authority tramite Open Refine.
 
 ## Documentazione e qualità dei dati
 
-- Quali metadati e documentazione (ad esempio la metodologia  
-di raccolta dei dati e il modo di organizzare i dati)  
-accompagneranno i dati?
-- Quali misure di controllo della qualità dei dati saranno  
-utilizzate?
+I dati sono archiviati e resi accessibili su Git Hub, il cui dataset è composto da due cartelle:
 
-## Backup e archiviazione
+1. **data**, che include due sotto cartelle, **csv** e **xml** ;
+2. **docs**, al cui interno sono presenti la **fonte** utilizzata e il  **data management plan**
 
-- Come saranno archiviati e salvati i dati e i metadati  
-durante la ricerca?
-- Come sarà gestita la sicurezza dei dati e la protezione  
-dei dati sensibili durante la ricerca?
+Inoltre si è provveduto a preservare i dataset tabellari pubblicandoli su [Zenodo](https://zenodo.org/) e creando un DOI per ognuno di essi. 
 
-## Requisiti legali ed etici
+## Licenza
 
-- Come saranno gestite altre questioni legali, come i diritti  
-di proprietà intellettuale e la proprietà? Quale legislazione  
-si applica?
-- Quali questioni etiche e codici di condotta ci sono e come  
-saranno presi in considerazione?
-
-## Condivisione dei dati e conservazione a lungo termine
-
-- Come e quando i dati saranno condivisi? Ci sono possibili  
-restrizioni alla condivisione dei dati o motivi di embargo?
-- Come saranno selezionati i dati per la conservazione e dove  
-saranno conservati a lungo termine (ad esempio un repository  
-di dati o un archivio)?
-- Quali metodi o strumenti software sono necessari per accedere  
-e utilizzare i dati?
-- Come sarà garantita l'applicazione di un identificatore unico  
-e persistente (come un Digital Object Identifier, o DOI) a  
-ciascun set di dati?
+Tutti i dati saranno registrati sotto sotto licenza CC-BY 4.0, con piena libertà di uso e modifica dei dati a patto che se ne citi la paternità.
