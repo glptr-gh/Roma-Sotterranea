@@ -109,4 +109,4 @@ Inoltre si è provveduto a preservare i dataset tabellari pubblicandoli su [Zeno
 
 ## Licenza
 
-Tutti i dati saranno registrati sotto sotto licenza CC-BY 4.0, con piena libertà di uso e modifica dei dati a patto che se ne citi la paternità.
+Tutti i dati saranno registrati sotto sotto licenza CC0 1.0.
