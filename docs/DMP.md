@@ -40,23 +40,26 @@ Roma_Sotterranea è il titolo del progetto d’esame per il corso di [DHDM](http
 
 ![image](https://github.com/user-attachments/assets/b0b8f115-f4aa-44b0-927f-19f16f7aea75)
 
-I dati sono stati raccolti a partire dalla versione formato ```.txt``` dell'opera di Diego Angeli. A partire da esso sono stati identificati diversi elementi: 
+I dati sono stati raccolti a partire dalla versione formato ```.txt``` dell'opera di Diego Angeli. A partire da esso è stato possibile ricercare manualmente quali chiese sono dotate di una o più sezioni sotterranee mediante la ricerca per le parole chiave: "sotterraneo/a/i", "catacombe","ipogeo/i/a". Dalla descrizione di queste chiese, associata a ricerche sul Web mirate, poi, sono stati identificati diversi elementi: 
 
-- nome_chiesa
-- altri_nomi
-- posizione
-- data_costruzione
-- data_riedificazione_restauro
-- responsabili_elementi_architettonici_interni
-- elementi_scultorei_interni
-- responsabili_elementi_scultorei_interni
-- elementi_pittorici_destra
-- responsabili_elementi_pittorici_destra
-- elementi_pittorici_sinistra
-- responsabili_elementi_ pittorici_sinistra
+- Identificativo della Chiesa
+- Nome della Chiesa
+- Riferimento Wikidata relativo alla Chiesa
+- Ubicazione della Chiesa
+- Costruzione della Chiesa
+- Stato attuale della Chiesa
+- Contenuto dei Sotterranei
+- Edificazione dei Sotterranei
+- Stato dei Sotterranei
+- Modalità di accesso ai Sotterranei
 
-A partire da una strutturazione preliminare dei dati in formato tabellare (Excel), si è proceduto con la conversione in formato ```.csv``` e, attraverso l'impiego di Open Refine, è stato effettuato il controllo authority relative al campo _nome_chiesa_.   
-Completata la fase di pulizia e verifica, il nuovo obiettivo è la marcatura dei testi selezionati secondo lo standard XML-TEI, utilizzando come riferimento i dati estratti e strutturati nel file ```.csv```. 
+A partire da queste informazioni è stato quindi possibile creare un dataset tabellare iniziale in formato ```.csv``` che permettesse di isolare le chiese sulle quali concentrare il lavoro successivo. Il nuovo obiettivo è allora diventato la marcatura dei testi selezionati secondo lo standard XML-TEI, utilizzando come riferimento i dati estratti e strutturati nel file ```.csv```. Il testo è quindi stato ripreso in formato ```.txt``` e, dopo aver isolato le chiese dotate di apparati sotterranei, si è proceduto alla creazione di un nuovo file ```.xml``` nel quale il testo è stato strutturato secondo due approcci differenti: dal punto di vista srtutturale e dal punto di vista semantico. Del testo, infatti sono stati marcati:
+
+### Marcatura Strutturale
+
+- Paragrafi, con il tag <div type="section">
+- Capoversi
+- Liste
 
 Tuttavia, il risultato ottenuto presenta una marcata disomogeneità e una scarsa coerenza tra le entità descritte nel file ```.csv``` e la loro rappresentazione nella codifica XML-TEI, con particolare riferimento agli elementi di natura scultorea e pittorica. Ciò compromette l'affidabilità e l'interoperabilità del dataset all'interno di un contesto di valorizzazione e analisi digitale del patrimonio.
 
