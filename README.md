@@ -12,14 +12,29 @@ Progetto d'esame del corso in Digital Humanities e Data Management per i Beni Cu
 5. SBN OPAC.
 
 ## Metodi e strumenti
-Metodologie e/o strumenti utilizzati
+* [Git Hub](https://github.com/)
+* [Markdown](https://www.markdownguide.org/)
+* [VISUAL STUDIO CODE](https://code.visualstudio.com/)
+* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+* [TEI](https://tei-c.org/)
+* [ZENODO](https://zenodo.org/)
 
 ## Credits
-Contatti di tutte le persone coinvolte
+Gianluca Petrosillo: https://orcid.org/0009-0002-2249-1894
 
 ## Licenza
-Etichetta e link alla licenza
+[CC0 1.0](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/LICENSE)
 
 ## Changelog
 * Creazione repository
-* Compilazione parziale del ReadMe in markdown, riportando titolo, descrizione e fonti principali
+* Compilazione parziale del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/README.md) relativo alla repository
+* Creazione cartella [data](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data) e compilazione del realtivo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/README.md)
+* Creazione cartella [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) e compilazione del relativo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/README.txt)
+* Creazione del file [LICENSE](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/LICENSE)
+* Compilazione parziale del file [DMP.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/DMP.md) in [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs)
+* Creazione della cartella [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV) in [data](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data)
+* Creazione del file [Chiese_Sotterranee.csv](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/CSV/Chiese_Sotterranee.csv) in [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV)
+* Caricamento della cartella [XML](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/XML), con all'interno relativo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/XML/README.md) e file [Chiese_di_Roma_Angeli_Sotterranei.xml](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/XML/Chiese_di_Roma_Angeli_Sotterranei.xml)
+* Creazione dei file in formato '''.csv''', uno per ogni chiesa, nella cartella [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV)
+* Terminata la compilazione del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/README.md) relativo alla repository
+* Terminata la compilazione del file [DMP.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/DMP.md) in [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs)
