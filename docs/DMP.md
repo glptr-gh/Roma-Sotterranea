@@ -57,13 +57,42 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 
 ### Marcatura Strutturale
 
-- Paragrafi, con il tag <div type="section">
+- Paragrafi
 - Capoversi
 - Liste
+- Corsivi
+- Grassetti
+- Note a piè di pagina
 
-Tuttavia, il risultato ottenuto presenta una marcata disomogeneità e una scarsa coerenza tra le entità descritte nel file ```.csv``` e la loro rappresentazione nella codifica XML-TEI, con particolare riferimento agli elementi di natura scultorea e pittorica. Ciò compromette l'affidabilità e l'interoperabilità del dataset all'interno di un contesto di valorizzazione e analisi digitale del patrimonio.
+### Marcatura Semantica
 
-In ultima analisi, _Quer pasticciaccio_ ha permesso alcune riflessioni e spunti di lavoro futuro: 
+- Opere d'arte
+- Titoli delle opere d'arte
+- Materiale delle opere d'arte
+- Autori delle opere d'arte
+- Date
+- Luoghi
+- Persone
+- Avvenimenti
+- Concetti generici
+
+Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico), da questi dati è stato comunque possibile costruire un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
+
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+Questo lavoro ha prodotto risultati interessanti
 
 1. basare la marcatura su un thesaurus consolidato e specifico come l'Art and Architecture Thesaurus curato da [Getty Research Institute](https://www.getty.edu/research/tools/vocabularies/aat/)
 2. procedere con l'estrazione e la strutturazione dei dati in ```.csv```
