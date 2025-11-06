@@ -1,8 +1,8 @@
 # Roma Sotterranea - Data Management Plan
 
-| Versione | Data       | Note                    |
-| -------- | ---------- | ----------------------- |
-| v1.2   | 06-11-2025 | Creazione del documento |
+| Versione | Data       |
+| -------- | ---------- |
+| v1.2   | 06-11-2025 |
 
 ## Indice
 
