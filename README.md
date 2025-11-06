@@ -35,6 +35,6 @@ Gianluca Petrosillo: https://orcid.org/0009-0002-2249-1894
 * Creazione della cartella [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV) in [data](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data)
 * Creazione del file [Chiese_Sotterranee.csv](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/CSV/Chiese_Sotterranee.csv) in [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV)
 * Caricamento della cartella [XML](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/XML), con all'interno relativo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/XML/README.md) e file [Chiese_di_Roma_Angeli_Sotterranei.xml](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/XML/Chiese_di_Roma_Angeli_Sotterranei.xml)
-* Creazione dei file in formato '''.csv''', uno per ogni chiesa, nella cartella [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV)
+* Creazione dei file in formato ```.csv```, uno per ogni chiesa, nella cartella [CSV](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data/CSV)
 * Terminata la compilazione del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/README.md) relativo alla repository
 * Terminata la compilazione del file [DMP.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/DMP.md) in [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs)
