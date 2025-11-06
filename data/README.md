@@ -1,17 +1,6 @@
-# Cartella 'Data'
+# Cartella data
 
-## Contenuti
-* Tabella in CSV contenente i dati dei luoghi di culto romani dotati di sezioni sotterranee;
-* File ottenuto mediante Open Refine di pulizia della tabella;
-* Dati strutturati in RDF Turtle per rendere la tabella interoperabile e interagibile dai computer.
+Questa cartella contiene due sottocartelle:
 
-## Strumenti
-* GitHub;
-* OpenRefine;
-* VScode.
-
-## Privacy
-
-## Changelog
-* creazione cartella 'Data'
-* Scrittura README.md
+- **csv** include i dataset in formato ```.csv``` (tabellare)
+- **xml** contiene il file utilizzati marcato secondo lo standard TEI
