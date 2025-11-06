@@ -5,8 +5,25 @@ La cartella contiene tutti i Dataset tabellari prodotti nello svolgimento del pr
 ## Indice
 
 1. Chiese_Sotterranee.csv
-2. S.Agnese1.csv
-3. S.Agnese2.csv
-4. S.Clemente.csv
-5. S.Croce_in_Gerusalemme.csv
-6. 
+2. S.AGNESE1.csv
+3. S.AGNESE2.csv
+4. S.CLEMENTE.csv
+5. S.CROCE_IN_GERUSALEMME.csv
+6. S.GIOVANNI_E_PAOLO.csv
+7. S.LORENZO_FUORI_LE_MURA.csv
+8. S.LORENZO_IN_FONTE.csv
+9. S.LUCA_E_S.MARTINA.csv
+10. S.MARIA_DELLA_CONCEZIONE.csv
+11. S.MARIA_IN_VIA_LATA.csv
+12. S.MARIA_SCALA_COELI.csv
+13. S.PIETRO_E_MARCELLINO.csv
+14. S.PIETRO_IN_VATICANO.csv
+15. S.PRISCA.csv
+16. S.SEBASTIANO.csv
+17. S.VINCENZO_E_ANASTASIO.csv
+
+## Dataset Chiese_Sotterranee.csv
+
+### Descrizione
+
+Dopo aver scelto mediante ricerca manuale i brani dell'opera di Diego Angeli [Diego Angeli, Le Chiese di Roma, Roma, Società Editrice Dante Alighieri, 1922.](https://archive.org/details/lechiesediromagu00ange_0/page/n7/mode/2up), questo dataset è stato prodotto in modo da includere tutte le chiese che abbiano almeno una parte posta nel sottosuolo.
