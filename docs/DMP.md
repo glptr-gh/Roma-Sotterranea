@@ -15,18 +15,16 @@
 
 ## Autore
 
-- Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894 -- ALMA MATER UNIVERSITÀ DI BOLOGNA -- STUDENTE
+Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894 -- ALMA MATER UNIVERSITÀ DI BOLOGNA -- STUDENTE
 
 ## Sommario esecutivo
 
 1. Scelta dei brani dall'opera di Diego Angeli [Diego Angeli, Le Chiese di Roma, Roma, Società Editrice Dante Alighieri, 1922.](https://archive.org/details/lechiesediromagu00ange_0/page/n7/mode/2up)
 2. Dai testi scelti in formato ```.txt```, estrazione manuale dei dati 
-4. Creazione della prima tabella in formato  ```.csv``` contenente tutte le chiese in cui esiste una sezione ipogea, tramite [GitHub](https://github.com/)
-6. Applicazione di [Open Refine](https://openrefine.org/) per riconciliare le authority di nomi delle chiese 
-7. Sulla base dell'ultima tabella ```.csv```, marcatura seguendo [XML TEI](https://vscode.dev/)
-8. Raccolta dei dati e loro organizzazione in seconda tabella  ```.csv``` con le informazioni sulle opere d'arte presenti nei sotterranei delle chiese descritte da Diego Angeli, di nuovo attraverso [GitHub](https://github.com/)
-9. Applicazione di [Open Refine](https://openrefine.org/) per riconciliare le authority dei nomi degli autori e correggere possibili errori
-10. Analisi dei risultati
+3. Creazione della prima tabella in formato  ```.csv``` contenente tutte le chiese in cui esiste una sezione ipogea, tramite [GitHub](https://github.com/)
+4. Sulla base dell'ultima tabella ```.csv```, marcatura seguendo [XML TEI](https://vscode.dev/)
+5. Raccolta dei dati e loro organizzazione in seconda tabella  ```.csv``` con le informazioni sulle opere d'arte presenti nei sotterranei delle chiese descritte da Diego Angeli, di nuovo attraverso [GitHub](https://github.com/)
+6. Analisi dei risultati
 
 ## Introduzione
 
