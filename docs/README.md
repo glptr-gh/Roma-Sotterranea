@@ -2,7 +2,7 @@
 
 ## Indice
 
-- [Autore](#Autore)
+- [Autore e Link](#Autore-e-Link)
 - [Introduzione](#Introduzione)
 - [L' idea](#L'-idea)
 - [Il Progetto](#Il-Progetto)
@@ -14,6 +14,8 @@
 ## Autore
 
 Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894
+
+Link alla repo: 
 
 ## Introduzione
 
