@@ -61,7 +61,7 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 - **Titoli delle opere d'arte**, con i tag ```<title>```
 - **Materiale delle opere d'arte**: ```<material>```
 - **Autori delle opere d'arte**, marcati come ```<author>```
-- **Date**, marcate come ```date when="x">``` o ```<date from="x" to="y">```
+- **Date**, marcate come ```<date when="x">``` o ```<date from="x" to="y">```
 - **Luoghi**, come ```<place>```
 - **Persone**, marcate con il tag ```<persName>```
 - **Famiglie**, per cui è stato utilizzato ```<ref type="org">```
