@@ -15,7 +15,7 @@
 
 Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894
 
-Link alla repo: 
+Link alla repo: https://github.com/glptr-gh/Roma-Sotterranea/tree/main
 
 ## Introduzione
 
