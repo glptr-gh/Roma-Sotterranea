@@ -108,7 +108,7 @@ Questo lavoro ha prodotto risultati interessanti, aprendo la possibilità di amp
 
 ## La Grande Assente
 
-Purtroppo, per mancanza di tempo e problematiche del dataset in se stesso, non è stato possibile effettuare una pulizia organica dei dati. Se per qwuanto riguarda il dataset tabellare, a impedirlo è stata soprattutto la mancanza di tempo, il problema principale riscontrato nel tentativo di svolgere una pulizia del file XML, infatti, sta nel fatto che Open Refine non riesce a leggere il file, non accettando la mancanza di un tag di chiusura dei capoversi (</p>); problematica che non può essere risolto a meno di penalizzare la fedeltà alla struttura del testo, la quale è stata uno dei primi _must_ del progetto di marcatura.
+Purtroppo, per mancanza di tempo e problematiche del dataset in se stesso, non è stato possibile effettuare una pulizia organica dei dati. Se per qwuanto riguarda il dataset tabellare, a impedirlo è stata soprattutto la mancanza di tempo, il problema principale riscontrato nel tentativo di svolgere una pulizia del file XML, infatti, sta nel fatto che Open Refine non riesce a leggere il file, non accettando la mancanza di un tag di chiusura dei capoversi (```</p>```); problematica che non può essere risolto a meno di penalizzare la fedeltà alla struttura del testo, la quale è stata uno dei primi _must_ del progetto di marcatura.
 
 ## Conclusione
 
