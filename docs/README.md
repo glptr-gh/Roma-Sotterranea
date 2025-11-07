@@ -1,30 +1,19 @@
-# Roma Sotterranea - Data Management Plan
-
-| Versione | Data       |
-| -------- | ---------- |
-| v1.2   | 06-11-2025 |
+# Roma Sotterranea: progetto d'esame DHDMCH 2024/2025
 
 ## Indice
 
-- [Autore](##Autore)
-- [Sommario esecutivo](##Sommarioesecutivo)
-- [Introduzione](##Introduzione)
-- [Descrizione dei dati](##Descrizionedeidati)
-- [Documentazione e qualità dei dati](##Documentazioneequalitàdeidati)
-- [Licenza](##Licenza)
+- [Autore](#Autore)
+- [Introduzione](#Introduzione)
+- [L'idea](#L'idea)
+- [Il Progetto](#Il-Progetto)
+- [I Risultati](#I-Risultati)
+- [Problemi e Future Works](#Problemi-e-Future-Works)
+- [La Grande Assente](#La-Grande-Assente)
+- [Conclusione](#Conclusione)
 
 ## Autore
 
 Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894 -- ALMA MATER UNIVERSITÀ DI BOLOGNA -- STUDENTE
-
-## Sommario esecutivo
-
-1. Scelta dei brani dall'opera di Diego Angeli [Diego Angeli, Le Chiese di Roma, Roma, Società Editrice Dante Alighieri, 1922.](https://archive.org/details/lechiesediromagu00ange_0/page/n7/mode/2up)
-2. Dai testi scelti in formato ```.txt```, estrazione manuale dei dati 
-3. Creazione della prima tabella in formato  ```.csv``` contenente tutte le chiese in cui esiste una sezione ipogea, tramite [GitHub](https://github.com/)
-4. Sulla base dell'ultima tabella ```.csv```, marcatura seguendo [XML TEI](https://vscode.dev/)
-5. Raccolta dei dati e loro organizzazione in seconda tabella  ```.csv``` con le informazioni sulle opere d'arte presenti nei sotterranei delle chiese descritte da Diego Angeli, di nuovo attraverso [GitHub](https://github.com/)
-6. Analisi dei risultati
 
 ## Introduzione
 
@@ -34,7 +23,7 @@ Infine, sarà stilata una nuova tabella CSV nella quale saranno riportate tutte 
 Da quest'ultimo file dovrebbe essere possibile, poi, svolgere ulteriori azioni, come la creazione di LOD in RDF che permettano di associare mediante URI tutte le opere al loro autore, alla loro posizione nel sottosuolo romano, al loro soggetto, al tipo di opera d'arte, ecc.
 Roma_Sotterranea è il titolo del progetto d’esame per il corso di [DHDM](https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2024/502386) (a.a. 2024/2025).
 
-## Descrizione dei dati
+## L'idea
 
 ![image](https://github.com/user-attachments/assets/b0b8f115-f4aa-44b0-927f-19f16f7aea75)
 
@@ -51,33 +40,44 @@ I dati sono stati raccolti a partire dalla versione formato ```.txt``` dell'oper
 - Stato dei Sotterranei
 - Modalità di accesso ai Sotterranei
 
+## Il progetto
+
 A partire da queste informazioni è stato quindi possibile creare un dataset tabellare iniziale in formato ```.csv``` che permettesse di isolare le chiese sulle quali concentrare il lavoro successivo. Il nuovo obiettivo è allora diventato la marcatura dei testi selezionati secondo lo standard XML-TEI, utilizzando come riferimento i dati estratti e strutturati nel file ```.csv```. Il testo è quindi stato ripreso in formato ```.txt``` e, dopo aver isolato le chiese dotate di apparati sotterranei, si è proceduto alla creazione di un nuovo file ```.xml``` nel quale il testo è stato strutturato secondo due approcci differenti: dal punto di vista srtutturale e dal punto di vista semantico. Del testo, infatti sono stati marcati:
 
-### Marcatura Strutturale
+#### Marcatura Strutturale
 
-- Paragrafi
-- Capoversi
-- Liste
-- Corsivi
-- Grassetti
-- Note a piè di pagina
+- **Paragrafi**, con i tag <div type="section"
+- **Capoversi**, come <p
+- **Liste**, mediante i tag <list rend="numbered inline"; e <item
+- **Corsivi**, con <hi rend="italic"
+- **Grassetti**, con <hi rend="bold"
+- **Note a piè di pagina**, <note place="foot"
+- **Interruzione di pagina**, mediante <pb n="x"/
 
-### Marcatura Semantica
+#### Marcatura Semantica
 
-- Opere d'arte
-- Titoli delle opere d'arte
-- Materiale delle opere d'arte
-- Autori delle opere d'arte
-- Date
-- Luoghi
-- Persone
-- Famiglie
-- Avvenimenti
-- Lingue straniere (spec. Latino e Greco)
-- Numeri
-- Misure
-- Valori monetari
-- Concetti generici
+- **Opere d'arte**, come <ref type="work"
+- **Titoli delle opere d'arte**, con i tag <title
+- **Materiale delle opere d'arte**: <material
+- **Autori delle opere d'arte**, marcati come <author
+- **Date**, marcate come <date when o <date from="x" to="y"
+- **Luoghi**, come <place
+- **Persone**, marcate con il tag <persName
+- **Famiglie**, per cui è stato utilizzato <ref type="org"
+- **Avvenimenti**: <ref type="event"
+- **Lingue straniere (spec. Latino e Greco)**, marcate come <foreign xml:lang="x"
+- **Numeri**, come <num type="caridnal" value="x" oppure <num type="ordinal" value="y"
+- **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z"
+- **Valori monetari**, marcati come misure e il tag @unit completato con la sigla della valuta utilizzata in Wikidata
+- **Concetti generici**, come <rs
+
+## I Risultati
+
+  ```<div type="section">
+            <head><ref type="place" target="https://www.wikidata.org/wiki/Q385910">S.CLEMENTE</ref>.</head>
+            <p>BASILICA SOTTERRANEA. — Questa basilica primitiva fu costruita sopra un edificio dell'<ref type="org" target="https://www.wikidata.org/wiki/Q2277">impero</ref> che a sua volta era stato eretto sopra costruzioni dell'<date from="0509" to="27">epoca repubblicana</date>. In queste costruzioni fu rinvenuta una <rs><hi rend="italic">cella</hi></rs> col <ref type="work"><title>simulacro di Mitra</title></ref>, il che fa supporre - sapendosi essere stata quella l'abitazione di <persName target="https://www.wikidata.org/wiki/Q42887">San Clemente</persName> - che
+            <pb n="101"/>
+            le case del martire fossero confiscate durante una <rs type="event">persecuzione</rs> e cedute ai <rs type="person">sacerdoti di <ref type="character" target="https://www.wikidata.org/wiki/Q6497135">Mitra</ref></rs> il cui <rs type="org">culto</rs> era molto esteso negli ultimi <measure type="time" quantity="100" unit="year">secoli</measure> dell'<ref type="org" target="https://www.wikidata.org/wiki/Q2277">Impero</ref>. La chiesa è formata da <num type="cardinal" value="1">un</num> vestibolo e da <num type="cardinal" value="1">un</num> tempio a <num type="cardinal" value="3">tre</num> navi le cui absidi erano assai maggiori delle attuali. Le pareti sono dipinte da <ref type="work"><title>affreschi</title> di <date from="400" to="1099">epoche diverse, che variano dal V all’XI secolo</date></ref>.</p>```
 
 Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico), da questi dati è stato comunque possibile costruire un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
 
@@ -95,6 +95,8 @@ Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scars
 - Data_Restauro
 - Autore_Restauro
 
+## Problemi e Future Works
+
 Questo lavoro ha prodotto risultati interessanti, aprendo la possibilità di ampliare la ricerca in molti modi, ma non si può sicuramente dichiarare un successo. Infatti, se l'obiettivo iniziale era quello di rendere operabile da un sistema il testo di Diego Angeli, questo è avvenuto soltanto in parte. Inserendo il file in Phthon o altro software adibito alla trasformazione di dati non strutturati in dati strutturati, si noterà molto facilmente la grande difficoltà con cui essi riescono a districarsi tra le maglie di un testo talmente complesso, restituendo datset confusi o del tutto erronei. Ciononostante, una raccolta di file come quelli prodotti in questa ricerca, come si è detto, possono comunque essere utili. Nello specifico, a partire da essi è possibile:
 
 1. Procedere alla creazione di Linked Open Data in cui tutte le opere d'arte siano collegate ad almeno un altro dato, come la la chiesa al di sotto della quale si trova, se non proprio a una quantità molto ampia di altri dati, dall'autore all'epoca in cui è stata prodotta, dal materiale che la costituisce e al tipo di forma d'arte a cui appartiene fino al soggetto che rappresenta o a cui è dedicata;
@@ -103,15 +105,10 @@ Questo lavoro ha prodotto risultati interessanti, aprendo la possibilità di amp
 4. Geolocalizzare con una buona precisione le opere d'arte descritte da Diego Angeli, associandole alle mappe dei sotterranei delle Chiese di Roma, disponibili on line, così da dare vita a carte temeatiche specifiche;
 5. Completare i dataset in ```.csv``` grazie a un processo di riconciliazione delle authority tramite Open Refine.
 
-## Documentazione e qualità dei dati
+## La Grande Assente
 
-I dati sono archiviati e resi accessibili su Git Hub, il cui dataset è composto da due cartelle:
+Purtroppo, per mancanza di tempo e problematiche del dataset in se stesso, non è stato possibile effettuare una pulizia organica dei dati. Se per qwuanto riguarda il dataset tabellare, a impedirlo è stata soprattutto la mancanza di tempo, il problema principale riscontrato nel tentativo di svolgere una pulizia del file XML, infatti, sta nel fatto che Open Refine non riesce a leggere il file, non accettando la mancanza di un tag di chiusura dei capoversi (</p>); problematica che non può essere risolto a meno di penalizzare la fedeltà alla struttura del testo, la quale è stata uno dei primi _must_ del progetto di marcatura.
 
-1. **data**, che include due sotto cartelle, **csv** e **xml** ;
-2. **docs**, al cui interno sono presenti la **fonte** utilizzata e il  **data management plan**
+## Conclusione
 
-Inoltre si è provveduto a preservare i dataset tabellari pubblicandoli su [Zenodo](https://zenodo.org/) e creando un DOI per ognuno di essi. 
 
-## Licenza
-
-Tutti i dati saranno registrati sotto sotto licenza CC0 1.0.
