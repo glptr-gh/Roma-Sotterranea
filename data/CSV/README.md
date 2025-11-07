@@ -27,3 +27,81 @@ La cartella contiene tutti i Dataset tabellari prodotti nello svolgimento del pr
 ### Descrizione
 
 Dopo aver scelto mediante ricerca manuale i brani dell'opera di Diego Angeli [Diego Angeli, Le Chiese di Roma, Roma, Società Editrice Dante Alighieri, 1922.](https://archive.org/details/lechiesediromagu00ange_0/page/n7/mode/2up), questo dataset è stato prodotto in modo da includere tutte le chiese che abbiano almeno una parte posta nel sottosuolo.
+
+### Struttura
+- **Numero righe**: 18
+- **Numero di colonne**: 10
+- **Intestazioni**:
+- ID_Chiesa
+- Nome
+- Wikidata
+- Ubicazione
+- Costruzione
+- Stato_attuale_chiesa
+- contenuto_sotterranei
+- Edificazione_sotterranei
+- Stato_sotterranei
+- modalità_accesso_sotterranei
+
+## Dataset Chiese
+
+### Descrizione
+
+Realizzato dopo aver completato la marcatura dei testi selezionati, questi dataset sono stati prodotti per includere tuttte le opere esistenti all'interno dei sotterranei delle chiese di Roma.
+
+### S.AGNESE1.csv
+- **Numero righe**: 4
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID  _opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.AGNESE2.csv
+- **Numero di righe**: 2
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID  _opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.CLEMENTE.csv
+- **Numero di righe**: 39
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID  _opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+###
+
