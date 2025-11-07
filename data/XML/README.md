@@ -36,3 +36,7 @@ Dopo aver scaricato i brani scelti dall'opera di Diego Angeli [Diego Angeli, Le 
 - **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z"
 - **Valori monetari**, marcati come misure e il tag @unit completato con la sigla della valuta utilizzata in Wikidata
 - **Concetti generici**, come <rs
+
+## DOI
+
+https://doi.org/10.5281/zenodo.17553828
