@@ -114,5 +114,5 @@ Purtroppo, per mancanza di tempo e problematiche del dataset in se stesso, non �
 
 In conclusione, si può dire che questo progetto si caratterizza principalmente come un fallimento, ma un fallimento dal quale è stato possibile ricavare qualcosa di buono e che, soprattutto, insegna molto sul modo giusto (o forse su tutti i modi sbagliati) con cui andrebbe gestito un progetto di Data Management. Conoscere meglio XML e TEI ha permesso di comprenderne meglio le potenzialità e i limiti, e utilizzare GitHub ha aperto un mondo che difficilmente sarà possibile ignorare in futuro. Open Refine, seppure poco utilizzato, si è dimostrato un ottimo strumento il quale, se ustao correttamente, può velocizzare molto il lavoro su un progetto, e Zenodo ha aperto uno spiraglio nel vasto mondo dei ricercatori e della ricerca. Con queste consapevolezze, sarà molto più facile in futuro fare le scelte corrette, e soprattutto capire quando un'idea rischia di essere troppo dispendiosa dal punto di vista del tempo e delle risorse necessarie a portarlo a termine.
 
-Grazie dell'attenzione e a presto.
+Grazie dell'attenzione.
 
