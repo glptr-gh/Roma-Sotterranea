@@ -46,30 +46,31 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 
 #### Marcatura Strutturale
 
-- **Paragrafi**, con i tag <div type="section"
-- **Capoversi**, come <p
-- **Liste**, mediante i tag <list rend="numbered inline"; e <item
-- **Corsivi**, con <hi rend="italic"
-- **Grassetti**, con <hi rend="bold"
-- **Note a piè di pagina**, <note place="foot"
-- **Interruzione di pagina**, mediante <pb n="x"/
+- **Paragrafi**, con i tag ```<div type="section">```
+- **Intestazioni**, con ```<head>```
+- **Capoversi**, come ```<p>```
+- **Liste**, mediante i tag ```<list rend="numbered inline">```; e ```<item>```
+- **Corsivi**, con ```<hi rend="italic">```
+- **Grassetti**, con ```<hi rend="bold">```
+- **Note a piè di pagina**, ```<note place="foot">```
+- **Interruzione di pagina**, mediante ```<pb n="x"/>```
 
 #### Marcatura Semantica
 
-- **Opere d'arte**, come <ref type="work"
-- **Titoli delle opere d'arte**, con i tag <title
-- **Materiale delle opere d'arte**: <material
-- **Autori delle opere d'arte**, marcati come <author
-- **Date**, marcate come <date when o <date from="x" to="y"
-- **Luoghi**, come <place
-- **Persone**, marcate con il tag <persName
-- **Famiglie**, per cui è stato utilizzato <ref type="org"
-- **Avvenimenti**: <ref type="event"
-- **Lingue straniere (spec. Latino e Greco)**, marcate come <foreign xml:lang="x"
-- **Numeri**, come <num type="caridnal" value="x" oppure <num type="ordinal" value="y"
-- **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z"
-- **Valori monetari**, marcati come misure e il tag @unit completato con la sigla della valuta utilizzata in Wikidata
-- **Concetti generici**, come <rs
+- **Opere d'arte**, come ```<ref type="work">```
+- **Titoli delle opere d'arte**, con i tag ```<title>```
+- **Materiale delle opere d'arte**: ```<material>```
+- **Autori delle opere d'arte**, marcati come ```<author>```
+- **Date**, marcate come ```date when="x">``` o ```<date from="x" to="y">```
+- **Luoghi**, come ```<place>```
+- **Persone**, marcate con il tag ```<persName>```
+- **Famiglie**, per cui è stato utilizzato ```<ref type="org">```
+- **Avvenimenti**: ```<ref type="event">```
+- **Lingue straniere (spec. Latino e Greco)**, marcate come ```<foreign xml:lang="x">```
+- **Numeri**, come ```<num type="caridnal" value="x">``` oppure ```<num type="ordinal" value="y">```
+- **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z">```
+- **Valori monetari**, marcati come misure e con il tag ```@unit``` completato con la sigla della valuta utilizzata in Wikidata
+- **Concetti generici**, come ```<rs>```
 
 ## I Risultati
 
