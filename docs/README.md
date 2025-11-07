@@ -13,9 +13,7 @@
 
 ## Autore
 
-Gianluca Petrosillo -- ORCID: [0009-0002-2249-1894](https://orcid.org/0009-0002-2249-1894)
-
-[Link alla repo](https://github.com/glptr-gh/Roma-Sotterranea/tree/main)
+Gianluca Petrosillo -- ORCID: [0009-0002-2249-1894](https://orcid.org/0009-0002-2249-1894) -- [Repository GitHub](https://github.com/glptr-gh/Roma-Sotterranea/tree/main)
 
 ## Introduzione
 
