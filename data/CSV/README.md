@@ -336,3 +336,7 @@ Realizzato dopo aver completato la marcatura dei testi selezionati, questi datas
 - Specifiche_Data(Da-A)
 - Data_Restauro
 - Autore_Restauro
+
+## DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15697603.svg)](https://doi.org/10.5281/zenodo.17553908)
