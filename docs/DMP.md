@@ -64,7 +64,7 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 
 ### Marcatura Semantica
 
-
+- Opere d'arte
 - Titoli delle opere d'arte
 - Materiale delle opere d'arte
 - Autori delle opere d'arte
