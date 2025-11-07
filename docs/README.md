@@ -11,7 +11,7 @@
 - [La Grande Assente](#La-Grande-Assente)
 - [Conclusione](#Conclusione)
 
-## Autore
+## Autore e Link
 
 Gianluca Petrosillo -- ORCID: [0009-0002-2249-1894](https://orcid.org/0009-0002-2249-1894) -- [Repository GitHub](https://github.com/glptr-gh/Roma-Sotterranea/tree/main)
 
