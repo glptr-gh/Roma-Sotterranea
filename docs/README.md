@@ -1,4 +1,4 @@
-# Roma Sotterranea: progetto d'esame DHDMCH 2024/2025
+# Progetto d'esame DHDMCH 2024/2025
 
 ## Indice
 
