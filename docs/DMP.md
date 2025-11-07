@@ -53,31 +53,33 @@ I dati sono stati raccolti a partire dalla versione formato ```.txt``` dell'oper
 
 A partire da queste informazioni è stato quindi possibile creare un dataset tabellare iniziale in formato ```.csv``` che permettesse di isolare le chiese sulle quali concentrare il lavoro successivo. Il nuovo obiettivo è allora diventato la marcatura dei testi selezionati secondo lo standard XML-TEI, utilizzando come riferimento i dati estratti e strutturati nel file ```.csv```. Il testo è quindi stato ripreso in formato ```.txt``` e, dopo aver isolato le chiese dotate di apparati sotterranei, si è proceduto alla creazione di un nuovo file ```.xml``` nel quale il testo è stato strutturato secondo due approcci differenti: dal punto di vista srtutturale e dal punto di vista semantico. Del testo, infatti sono stati marcati:
 
-### Marcatura Strutturale
+#### Marcatura Strutturale
 
-- Paragrafi
-- Capoversi
-- Liste
-- Corsivi
-- Grassetti
-- Note a piè di pagina
+- **Paragrafi**, con i tag ```<div type="section">```
+- **Intestazioni**, con ```<head>```
+- **Capoversi**, come ```<p>```
+- **Liste**, mediante i tag ```<list rend="numbered inline">```; e ```<item>```
+- **Corsivi**, con ```<hi rend="italic">```
+- **Grassetti**, con ```<hi rend="bold">```
+- **Note a piè di pagina**, ```<note place="foot">```
+- **Interruzione di pagina**, mediante ```<pb n="x"/>```
 
-### Marcatura Semantica
+#### Marcatura Semantica
 
-- Opere d'arte
-- Titoli delle opere d'arte
-- Materiale delle opere d'arte
-- Autori delle opere d'arte
-- Date
-- Luoghi
-- Persone
-- Famiglie
-- Avvenimenti
-- Lingue straniere (spec. Latino e Greco)
-- Numeri
-- Misure
-- Valori monetari
-- Concetti generici
+- **Opere d'arte**, come ```<ref type="work">```
+- **Titoli delle opere d'arte**, con i tag ```<title>```
+- **Materiale delle opere d'arte**: ```<material>```
+- **Autori delle opere d'arte**, marcati come ```<author>```
+- **Date**, marcate come ```<date when="x">``` o ```<date from="x" to="y">```
+- **Luoghi**, come ```<place>```
+- **Persone**, marcate con il tag ```<persName>```
+- **Famiglie**, per cui è stato utilizzato ```<ref type="org">```
+- **Avvenimenti**: ```<ref type="event">```
+- **Lingue straniere (spec. Latino e Greco)**, marcate come ```<foreign xml:lang="x">```
+- **Numeri**, come ```<num type="caridnal" value="x">``` oppure ```<num type="ordinal" value="y">```
+- **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z">```
+- **Valori monetari**, marcati come misure e con il tag ```@unit``` completato con la sigla della valuta utilizzata in Wikidata
+- **Concetti generici**, come ```<rs>```
 
 Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico), da questi dati è stato comunque possibile costruire un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
 
