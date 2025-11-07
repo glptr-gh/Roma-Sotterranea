@@ -71,7 +71,7 @@ Realizzato dopo aver completato la marcatura dei testi selezionati, questi datas
 - **Numero di righe**: 2
 - **Numero di colonne**: 13
 - **Intestazioni**:
-- ID  _opera
+- ID_opera
 - Provenienza
 - Titolo
 - Tipo
@@ -89,7 +89,7 @@ Realizzato dopo aver completato la marcatura dei testi selezionati, questi datas
 - **Numero di righe**: 39
 - **Numero di colonne**: 13
 - **Intestazioni**:
-- ID  _opera
+- ID_opera
 - Provenienza
 - Titolo
 - Tipo
@@ -103,5 +103,236 @@ Realizzato dopo aver completato la marcatura dei testi selezionati, questi datas
 - Data_Restauro
 - Autore_Restauro
 
-###
+### S.CROCE_IN_GERUSALEMME.csv
+- **Numero di righe**: 10
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
 
+### SS.GIOVANNI_E_PAOLO.csv
+- **Numero di righe**: 12
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.LORENZO_FUORI_LE_MURA.csv
+- **Numero di righe**: 5
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.LORENZO_IN_FONTE.csv
+- **Numero di righe**: 1
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.LUCA_E_S.MARINA.csv
+- **Numero di righe**: 20
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.MARIA_DELLA_CONCEZIONE.csv
+- **Numero di righe**: 1
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.MARIA_IN_VIA_LATA.csv
+- **Numero di righe**: 5
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.MARIA_SCALA_COELI.csv
+- **Numero di righe**: 2
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.PIETRO_E_MARCELLINO.csv
+- **Numero di righe**: 3
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.PIETRO_IN_VATICANO.csv
+- **Numero di righe**: 293
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.PRISCA.csv
+- **Numero di righe**: 4
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.SEBASTIANO.csv
+- **Numero di righe**: 3
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
+
+### S.VINCENZO_E_ANASTASIO.csv
+- **Numero di righe**: 2
+- **Numero di colonne**: 13
+- **Intestazioni**:
+- ID_opera
+- Provenienza
+- Titolo
+- Tipo
+- Materiale
+- Soggetto(QID)
+- Autore_1(QID)
+- Autore_2(QID)
+- Autore_3(QID)
+- Data
+- Specifiche_Data(Da-A)
+- Data_Restauro
+- Autore_Restauro
