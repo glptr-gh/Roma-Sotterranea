@@ -39,4 +39,4 @@ Dopo aver scaricato i brani scelti dall'opera di Diego Angeli [Diego Angeli, Le 
 
 ## DOI
 
-https://doi.org/10.5281/zenodo.17553828
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15697603.svg)](https://doi.org/10.5281/zenodo.17553828)
