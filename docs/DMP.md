@@ -2,16 +2,16 @@
 
 | Versione | Data       |
 | -------- | ---------- |
-| v1.2   | 06-11-2025 |
+| v0.1.2   | 07-11-2025 |
 
 ## Indice
 
-- [Autore](##Autore)
-- [Sommario esecutivo](##Sommarioesecutivo)
-- [Introduzione](##Introduzione)
-- [Descrizione dei dati](##Descrizionedeidati)
-- [Documentazione e qualità dei dati](##Documentazioneequalitàdeidati)
-- [Licenza](##Licenza)
+- [Autore](#Autore)
+- [Sommario esecutivo](#Sommario-esecutivo)
+- [Introduzione](#Introduzione)
+- [Descrizione dei dati](#Descrizione-dei-dati)
+- [Documentazione e qualità dei dati](#Documentazione-e-qualità-dei-dati)
+- [Licenza](#Licenza)
 
 ## Autore
 
