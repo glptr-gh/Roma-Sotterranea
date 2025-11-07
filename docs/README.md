@@ -4,7 +4,7 @@
 
 - [Autore](#Autore)
 - [Introduzione](#Introduzione)
-- [L'idea](#L'idea)
+- [L' idea](#L'-idea)
 - [Il Progetto](#Il-Progetto)
 - [I Risultati](#I-Risultati)
 - [Problemi e Future Works](#Problemi-e-Future-Works)
@@ -13,7 +13,7 @@
 
 ## Autore
 
-Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894 -- ALMA MATER UNIVERSITÀ DI BOLOGNA -- STUDENTE
+Gianluca Petrosillo -- https://orcid.org/0009-0002-2249-1894
 
 ## Introduzione
 
@@ -79,7 +79,7 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
             ```<pb n="101"/>```
             ```le case del martire fossero confiscate durante una <rs type="event">persecuzione</rs> e cedute ai <rs type="person">sacerdoti di <ref type="character" target="https://www.wikidata.org/wiki/Q6497135">Mitra</ref></rs> il cui <rs type="org">culto</rs> era molto esteso negli ultimi <measure type="time" quantity="100" unit="year">secoli</measure> dell'<ref type="org" target="https://www.wikidata.org/wiki/Q2277">Impero</ref>. La chiesa è formata da <num type="cardinal" value="1">un</num> vestibolo e da <num type="cardinal" value="1">un</num> tempio a <num type="cardinal" value="3">tre</num> navi le cui absidi erano assai maggiori delle attuali. Le pareti sono dipinte da <ref type="work"><title>affreschi</title> di <date from="400" to="1099">epoche diverse, che variano dal V all’XI secolo</date></ref>.</p>```
 
-Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico), da questi dati è stato comunque possibile costruire un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
+Com'è possibile notare, il risultato ottenuto presenta una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico). Nonostante ciò, da questi dati è stato comunque possibile costruire manualmente un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
 
 - ID_opera
 - Provenienza
@@ -111,4 +111,7 @@ Purtroppo, per mancanza di tempo e problematiche del dataset in se stesso, non �
 
 ## Conclusione
 
+In conclusione, si può dire che questo progetto si caratterizza principalmente come un fallimento, ma un fallimento dal quale è stato possibile ricavare qualcosa di buono e che, soprattutto, insegna molto sul modo giusto (o forse su tutti i modi sbagliati) con cui andrebbe gestito un progetto di Data Management. Conoscere meglio XML e TEI ha permesso di comprenderne meglio le potenzialità e i limiti, e utilizzare GitHub ha aperto un mondo che difficilmente sarà possibile ignorare in futuro. Open Refine, seppure poco utilizzato, si è dimostrato un ottimo strumento il quale, se ustao correttamente, può velocizzare molto il lavoro su un progetto, e Zenodo ha aperto uno spiraglio nel vasto mondo dei ricercatori e della ricerca. Con queste consapevolezze, sarà molto più facile in futuro fare le scelte corrette, e soprattutto capire quando un'idea rischia di essere troppo dispendiosa dal punto di vista del tempo e delle risorse necessarie a portarlo a termine.
+
+Grazie dell'attenzione e a presto.
 
