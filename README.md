@@ -29,7 +29,7 @@ Gianluca Petrosillo: https://orcid.org/0009-0002-2249-1894
 * Creazione repository
 * Compilazione parziale del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/README.md) relativo alla repository
 * Creazione cartella [data](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data) e compilazione del realtivo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/data/README.md)
-* Creazione cartella [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) e compilazione del relativo [README.md]((https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/README.md)
+* Creazione cartella [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) e compilazione del relativo [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/README.md)
 * Caricamento in [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) della cartella [Fonti](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs/Fonti)
 * Creazione del file [LICENSE](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/LICENSE)
 * Compilazione parziale del file [DMP.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/DMP.md) in [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs)
