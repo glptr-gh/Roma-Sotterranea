@@ -64,14 +64,19 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 
 ### Marcatura Semantica
 
-- Opere d'arte
+
 - Titoli delle opere d'arte
 - Materiale delle opere d'arte
 - Autori delle opere d'arte
 - Date
 - Luoghi
 - Persone
+- Famiglie
 - Avvenimenti
+- Lingue straniere (spec. Latino e Greco)
+- Numeri
+- Misure
+- Valori monetari
 - Concetti generici
 
 Nonostante il risultato ottenuto presenti una marcata disomogeneità e una scarsa coerenza tra le entità, a causa sia dell'inadeguatezza del formato TEI per descrivere opere d'arte sia per via dello stile di scrittura di Diego Angeli, il cui tende a preferire frasi spezzate in cui le informazioni sono spesso date in maniera discontinua (fatti che compromettono inevitabilmente l'operabilità di questa marcatura da parte di un sistema informatico), da questi dati è stato comunque possibile costruire un secondo dataset tabellare in formato ```.csv```, costituito da un file per ogni chiesa dotata di almeno un'opera d'arte nel suo sotterraneo. In questi casi, non si è fatto altro che utilizzare come metadati i tag adoperati per la marcatura:
