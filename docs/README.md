@@ -68,7 +68,7 @@ A partire da queste informazioni è stato quindi possibile creare un dataset tab
 - **Avvenimenti**: ```<ref type="event">```
 - **Lingue straniere (spec. Latino e Greco)**, marcate come ```<foreign xml:lang="x">```
 - **Numeri**, come ```<num type="caridnal" value="x">``` oppure ```<num type="ordinal" value="y">```
-- **Misure**, marcate con il tag <measure type="x" quantity="y" unit="z">```
+- **Misure**, marcate con il tag ```<measure type="x" quantity="y" unit="z">```
 - **Valori monetari**, marcati come misure e con il tag ```@unit``` completato con la sigla della valuta utilizzata in Wikidata
 - **Concetti generici**, come ```<rs>```
 
