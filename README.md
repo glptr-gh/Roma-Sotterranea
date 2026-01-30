@@ -41,4 +41,4 @@ Gianluca Petrosillo: https://orcid.org/0009-0002-2249-1894
 * Terminata la compilazione del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/docs/README.md) della cartella [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) e creazione dellla pagina Web per la presentazione del progetto
 * Effettuato correzioni minori su tutto il progetto
 * Terminata la compilazione del file [README.md](https://github.com/glptr-gh/Roma-Sotterranea/blob/main/README.md) relativo alla repository
-* Svolto aggiornamento generale della repository per cercare e correggere eventuali errori
+* Svolto aggiornamento generale della repository per cercare e correggere eventuali errori. Nello specifico, sono stati modificati i file README.md dell'intera repo, della cartella [docs](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/docs) e della cartella [data](https://github.com/glptr-gh/Roma-Sotterranea/tree/main/data).
